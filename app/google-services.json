@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "796920751492",
+    "firebase_url": "https://ocean-a10-20-07-2020.firebaseio.com",
+    "project_id": "ocean-a10-20-07-2020",
+    "storage_bucket": "ocean-a10-20-07-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796920751492:android:6d6b6682ac74107adce9d1",
+        "android_client_info": {
+          "package_name": "com.oceanbrasil.ocean_a10_20_07_2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796920751492-fbh7e0ac5oobqiau9cptg3t3l261jji4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oceanbrasil.ocean_a10_20_07_2020",
+            "certificate_hash": "6d4e73267b7ddb8f040f3ce4f0d1fb3263c1fc24"
+          }
+        },
+        {
+          "client_id": "796920751492-eiff8prmf28mnm9fp54bjodnhgi89467.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR9Mm-2O1r7jeDAPl22tZuJXIEc1BmG0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796920751492-eiff8prmf28mnm9fp54bjodnhgi89467.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
