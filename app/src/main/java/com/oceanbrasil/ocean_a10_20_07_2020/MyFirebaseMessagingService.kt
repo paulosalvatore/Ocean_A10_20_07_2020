@@ -10,7 +10,6 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         // ...
 
-        // TODO(developer): Handle FCM messages here.
         // Not getting messages here? See why this may be: https://goo.gl/39bRNJ
         Log.d(TAG, "From: " + remoteMessage.from)
 
@@ -21,13 +20,21 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
         // Check if message contains a notification payload.
         remoteMessage.notification?.let {
-            Log.d(TAG, "Message Notification Body: " + it.body)
+            val title = it.title ?: "Sem título"
+            val body = it.body ?: "Sem corpo"
+
+            Log.d(TAG, "Message Notification Body: " + body)
+
+//            if (title != null && body != null) {
+//                NotificationCreator.create(this, title, body)
+//            }
+
+            NotificationCreator.create(this, title, body)
         }
 
         // Also if you intend on generating your own notifications as a result of a received FCM
         // message, here is where that should be initiated. See sendNotification method below.
     }
-
 
     /**
      * Called if InstanceID token is updated. This may occur if the security of
